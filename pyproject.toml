@@ -35,6 +35,7 @@ dev = [
 
 [project.scripts]
 vectorrbac-demo = "vectorrbac.cli:main"
+vectorrbac-benchmark = "vectorrbac.demo_realtext:main"
 
 [tool.pytest.ini_options]
 asyncio_mode = "auto"
